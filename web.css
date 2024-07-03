@@ -28,17 +28,17 @@ body {
 #nav-header {
   width: 100%;
   height: 92px;
-}
-.navbar {
-  width: 93.8%;
-  height: 60px;
-  background-color: transparent;
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0.8) 0,
     rgba(7, 0, 0, 0) 60%,
     rgba(0, 0, 0, 0.8) 100%
   );
+}
+.navbar {
+  width: 93.8%;
+  height: 60px;
+  background-color: transparent;
 
   display: flex;
   justify-content: space-between;
@@ -282,4 +282,34 @@ div.questions {
 }
 div.mail-id_getStarted {
   height: 170px;
+}
+
+button #getStarted {
+  margin-top: 5px;
+}
+
+footer {
+  height: 400px;
+  width: 107%;
+  background-color: black;
+  margin-top: 10px;
+  color: #ffffff;
+  padding: 20px;
+  display: block;
+}
+.firstPanel {
+  margin: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.firstPanel ul {
+  display: inline-block;
+}
+.firstPanel ul li {
+  margin-top: 25px;
+  display: block;
+}
+
+.firstPanel p {
+  margin-left: 35px;
 }
