@@ -308,8 +308,10 @@ footer {
 .firstPanel ul li {
   margin-top: 25px;
   display: block;
+  font-size: small;
 }
 
 .firstPanel p {
   margin-left: 35px;
+  font-size: small;
 }
