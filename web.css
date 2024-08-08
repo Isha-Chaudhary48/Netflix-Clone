@@ -112,7 +112,13 @@ select option {
   color: #ffffff;
   margin-top: 28px;
 }
-#emailId {
+.together{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+.emailId {
   height: 56px;
   width: 364px;
   border-radius: 5px;
@@ -122,10 +128,9 @@ select option {
   background-color: transparent;
   font-size: 16px;
   font-weight: bolder;
-  margin-top: 24px;
   padding-left: 15px;
 }
-#getStarted {
+.getStarted {
   height: 56px;
   width: 213px;
   background-color: red;
@@ -133,7 +138,7 @@ select option {
   font-size: 27px;
   border-radius: 5px;
   border: 1px solid black;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 /* second main part */
@@ -218,7 +223,9 @@ select option {
   height: 1000px;
   width: 107%;
   background-color: black;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-top: 10px;
 }
 .fourth-main div {
@@ -243,49 +250,13 @@ div.questions {
   height: 600px;
 }
 
-.fourth-main button {
+.questions button  {
   width: 961px;
   height: 84px;
   background-color: #2d2d2d;
   color: white;
   font-size: 24px;
   margin-top: 10px;
-}
-.mail-id_getStarted {
-  display: inline;
-}
-.mail-id_getStarted h2 {
-  color: white;
-}
-.emailId {
-  height: 56px;
-  width: 364px;
-  border-radius: 5px;
-  border: 2px solid #ffffff;
-  color: #ffffff;
-
-  background-color: transparent;
-  font-size: 16px;
-  font-weight: bolder;
-  margin-top: 24px;
-  padding-left: 15px;
-}
-.mail-id_getStarted .getStarted {
-  height: 56px;
-  width: 213px;
-  background-color: red;
-  color: #ffffff;
-  font-size: 27px;
-  border-radius: 5px;
-  border: 1px solid black;
-  margin-left: 5px;
-}
-div.mail-id_getStarted {
-  height: 170px;
-}
-
-button #getStarted {
-  margin-top: 5px;
 }
 
 footer {
