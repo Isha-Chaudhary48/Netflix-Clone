@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Tailwind CSS configuration files
+tailwind.config.js
+postcss.config.js
+
+# Output directories (adjust based on your build setup)
+public/css/
+dist/
+build/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Dependency directories
+bower_components/
