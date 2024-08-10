@@ -5,27 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="home.css" />
     <title>home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
-  <body>
-    <div class="main">
-      <header id="nav-header">
-        <nav class="">
-          <img
-            class="netflixLogo"
-            src="./webPublic/netflixLogo.png"
-            alt="netflix logo"
-          />
-
-          <div class="navItems">
-            <ul class="items">
-              <li>TVShows</li>
-              <li>Movies</li>
-              <li>Recently Added</li>
-              <li>My List</li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-    </div>
+  <body class="bg-black max-h-full max-w-full">
+    <nav class="h-13 min-w-full flex bg-green-950">
+      <img
+        class="h-12 min-w-fit ml-10"
+        src="./webPublic/netflixLogo.png"
+        alt="netfloxLogo"
+      />
+      <a href="#">TV Shows</a>
+      <a href="#">Movies</a>
+      <a href="#">New & Popular</a>
+      <a href="#">My List</a>
+    </nav>
   </body>
 </html>
